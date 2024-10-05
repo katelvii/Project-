@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Гороскоп дня</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Гороскоп дня</h1>
+        <p>Обери свій знак зодіаку та дізнайся свій гороскоп на сьогодні.</p>
+
+        <div id="zodiac-selector">
+            <label for="zodiac-sign">Вибери свій знак зодіаку:</label>
+            <select id="zodiac-sign">
+                <option value="">-- Виберіть знак --</option>
+                <option value="aries">Овен</option>
+                <option value="taurus">Телець</option>
+                <option value="gemini">Близнюки</option>
+                <option value="cancer">Рак</option>
+                <option value="leo">Лев</option>
+                <option value="virgo">Діва</option>
+                <option value="libra">Терези</option>
+                <option value="scorpio">Скорпіон</option>
+                <option value="sagittarius">Стрілець</option>
+                <option value="capricorn">Козеріг</option>
+                <option value="aquarius">Водолій</option>
+                <option value="pisces">Риби</option>
+            </select>
+            <button onclick="showHoroscope()">Дізнатися гороскоп</button>
+        </div>
+
+        <div id="horoscope-result" class="hidden">
+            <h2>Гороскоп для <span id="sign-name"></span></h2>
+            <p id="horoscope-text"></p>
+            <button onclick="resetPage()">Обрати інший знак</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
