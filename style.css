@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
+    background-image: url(https://i.pinimg.com/564x/80/fd/6e/80fd6ec39ebd350c9b49201af0d7877a.jpg);
     margin: 0;
     padding: 0;
     display: flex;
@@ -8,7 +8,6 @@ body {
     align-items: center;
     height: 100vh;
 }
-
 .container {
     background-color: white;
     padding: 20px;
