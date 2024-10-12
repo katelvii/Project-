@@ -8,33 +8,32 @@
 </head>
 <body>
     <div class="container">
-        <h1>Гороскоп дня</h1>
-        <p>Обери свій знак зодіаку та дізнайся свій гороскоп на сьогодні.</p>
+        <h1>Передбачення дня</h1>
+        <p>Обери своє ім'я та дізнайся своє передбачення на сьогодні.</p>
 
         <div id="zodiac-selector">
-            <label for="zodiac-sign">Вибери свій знак зодіаку:</label>
+            <label for="zodiac-sign">Виберіть своє ім'я:</label>
             <select id="zodiac-sign">
-                <option value="">-- Виберіть знак --</option>
-                <option value="aries">Овен</option>
-                <option value="taurus">Телець</option>
-                <option value="gemini">Близнюки</option>
-                <option value="cancer">Рак</option>
-                <option value="leo">Лев</option>
-                <option value="virgo">Діва</option>
-                <option value="libra">Терези</option>
-                <option value="scorpio">Скорпіон</option>
-                <option value="sagittarius">Стрілець</option>
-                <option value="capricorn">Козеріг</option>
-                <option value="aquarius">Водолій</option>
-                <option value="pisces">Риби</option>
+                <option value="">---</option>
+                <option value="dima">Діма</option>
+                <option value="sasha">Саша</option>
+                <option value="roma">Рома</option>
+                <option value="matviy">Матвій</option>
+                <option value="andriy">Андрій</option>
+                <option value="zahar">Захар</option>
+                <option value="danya">Даня</option>
+                <option value="volodimir">Володимир</option>
+                <option value="katia">Катя</option>
+                <option value="oksana">Оксана</option>
+                
             </select>
-            <button onclick="showHoroscope()">Дізнатися гороскоп</button>
+            <button onclick="showHoroscope()">Дізнатися передбачення</button>
         </div>
 
         <div id="horoscope-result" class="hidden">
-            <h2>Гороскоп для <span id="sign-name"></span></h2>
+            <h2>Передбачення для <span id="sign-name"></span></h2>
             <p id="horoscope-text"></p>
-            <button onclick="resetPage()">Обрати інший знак</button>
+            <button onclick="resetPage()">Обрати інше ім'я</button>
         </div>
     </div>
 
