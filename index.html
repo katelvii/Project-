@@ -8,13 +8,13 @@
 </head>
 <body>
     <div class="container">
-        <h1>Передбачення дня</h1>
-        <p>Обери своє ім'я та дізнайся своє передбачення на сьогодні.</p>
-
+        <h1 class="zahovolok">Передбачення дня</h1>
+        <h3 class="h3">Обери своє ім'я та дізнайся своє передбачення на сьогодні.</h3>
+        
         <div id="zodiac-selector">
-            <label for="zodiac-sign">Виберіть своє ім'я:</label>
+            
             <select id="zodiac-sign">
-                <option value="">---</option>
+                <option value="">Виберіть своє ім'я:</option>
                 <option value="dima">Діма</option>
                 <option value="sasha">Саша</option>
                 <option value="roma">Рома</option>
@@ -27,13 +27,13 @@
                 <option value="oksana">Оксана</option>
                 
             </select>
-            <button onclick="showHoroscope()">Дізнатися передбачення</button>
+            <button class = "go" onclick="showHoroscope()">Дізнатися передбачення</button>
         </div>
 
         <div id="horoscope-result" class="hidden">
-            <h2>Передбачення для <span id="sign-name"></span></h2>
+            <h2 class="h22">Передбачення для <span id="sign-name"></span></h2>
             <p id="horoscope-text"></p>
-            <button onclick="resetPage()">Обрати інше ім'я</button>
+            <button class="back" onclick="resetPage()">Обрати інше ім'я</button>
         </div>
     </div>
 
