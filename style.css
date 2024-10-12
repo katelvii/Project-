@@ -37,17 +37,62 @@ select, button {
 }
 
 button {
-    background-color: #007bff;
+    background-color: #ff0000;
     color: white;
     border: none;
     border-radius: 5px;
+    width: 500px;
+    height: 50px;
     cursor: pointer;
+    transition: 0.55s;
+    
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #8b0000;
+    width: 600px;
+    height: 60px;
+    border-radius: 8px;
+    transition: 0.4s;
 }
 
 .hidden {
     display: none;
+}
+
+.zahovolok{
+    color: blue
+}
+
+.h3{
+    color: rgb(68, 102, 250)
+
+}
+
+.h22{
+    color:black
+}
+
+.go{
+    color:rgb(3, 3, 97);
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.back{
+    color:rgb(3, 3, 97);
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.go:hover{
+    color:rgb(7, 7, 250);
+    font-size: 23px;
+    transition: 0.5s;
+}
+
+.back:hover{
+    color:rgb(7, 7, 250);
+    font-size: 23px;
+    transition: 0.5s;
 }
